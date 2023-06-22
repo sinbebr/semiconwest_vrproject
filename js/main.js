@@ -33,8 +33,8 @@ window.scrollTo({
 });
 });
 
-// 영상 자동재생
-var videoElement = document.querySelector('.video__element');
+// 영상 자동재생//
+var videoElement = document.querySelector('.video video');
 var videoWrapper = document.querySelector('.video__wrapper');
 
 function checkVideoInView() {
